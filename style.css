@@ -79,6 +79,7 @@ nav button{
     font-size: 64px;
     font-weight: 700;
     line-height: 76px;
+    height: 241px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -97,12 +98,12 @@ nav button{
     color: #fff;
 }
 .demo button {
-    padding: 0 10px;
+    padding: 5px 20px;
     color: hsla(205, 100%, 28%, 1);
     border: none;
     border-radius: 4px;
 }
 
-.demo p {
-    padding: 5px 20px;
+.demo .demo-p {
+    padding: 10px 20px;
 }
