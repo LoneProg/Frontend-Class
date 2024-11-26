@@ -62,7 +62,7 @@ nav button{
     margin-left: 6rem;
 }
 
-.hero .textSide p{
+.textSide>p{
     color: #fff;
     font-size: 16px;
     line-height: 26px;
