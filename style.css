@@ -10,7 +10,7 @@
 }
 
 header{
-    display: flex;
+    display: flex;      
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -166,4 +166,83 @@ nav button{
 .arrowphone {
     position: relative;
     z-index: -2;
+}
+.post2 {
+    display: flex;
+    width: 80%;
+    margin: 5rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.post2-text{
+    width: 35%;
+}
+.post2-image{
+    width: 40%;
+}
+.post2-text h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    color: #034D82;
+}
+.hashtag {
+    background: rgba(239, 251, 255, 1);
+    padding: 4rem 0rem;
+    margin-top: 5rem;
+}
+
+.hashtag-toptext {
+    text-align: center;
+}
+
+.hashtag-toptext h2{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgba(3, 77, 130, 1);
+}
+
+.hashtag-toptext p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(142, 169, 193, 1);
+}
+
+.hashtag-cards {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+    background: #fff;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.card h5{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+padding: 1rem 0;
+line-height: 32px;
+color: rgba(3, 77, 130, 1);
+}
+
+.card p{
+    font-family: DM Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color: rgba(142, 169, 193, 1);
 }
