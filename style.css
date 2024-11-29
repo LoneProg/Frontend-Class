@@ -179,11 +179,28 @@ nav button {
 }
 .post2-text ul {
     flex-direction: column;
+    margin-top: 1rem;
 }
 .post2-text ul li {
-    padding-top: 17px;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
     color: rgba(144, 163, 180, 1);
-    list-style-image: url('./images/listimage.png.');
+}
+.post2-text ul li:last-child {
+    margin-bottom: 0;
+}
+.post2-text ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('http://127.0.0.1:8080/images/listimage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .post2-text h5 {
     font-family: DM Sans;
