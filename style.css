@@ -4,13 +4,11 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
 .headerHero {
     background: rgba(0, 184, 217, 1);
 }
-
-header{
-    display: flex;      
+header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -18,17 +16,14 @@ header{
     width: 85%;
     margin-bottom: 8%;
 }
-
 nav {
     display: flex;
     gap: 2rem;
 }
-
-ul{
+ul {
     display: flex;
 }
-
-.navBar li a{
+.navBar li a {
     font-family: DM Sans;
     font-size: 14px;
     font-weight: 500;
@@ -39,30 +34,25 @@ ul{
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
-
-select{
+select {
     background: none;
     border: hidden;
     color: #fff;
 }
-
-nav button{
+nav button {
     background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
     color: #fff;
     border: none;
     padding: 0.5rem 1.5rem;
 }
-
-.hero{
+.hero {
     display: flex;
     justify-content: center;
 }
-
 .textSide {
     margin-left: 6rem;
 }
-
-.textSide>p{
+.textSide>p {
     color: #fff;
     font-size: 16px;
     line-height: 26px;
@@ -73,7 +63,6 @@ nav button{
     color: #fff;
     margin: 20px 0;
 }
-
 .textSide h2 {
     color: #fff;
     font-family: DM Sans;
@@ -85,38 +74,33 @@ nav button{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-
 .curve img {
     width: 20%;
 }
 .imageSide img {
     width: 100%;
 }
-
-.demo{
+.demo {
     gap: 1rem;
     display: flex;
     color: #fff;
 }
-.demo button{
+.demo button {
     padding: 5px 20px;
     color: hsla(205, 100%, 28%, 1);
     border: none;
     padding-bottom: 5px;
     border-radius: 4px;
 }
-
 .demo .demo-p {
     padding: 10px 20px;
 }
-
 .sponsors {
     align-items: center;
     justify-content: center;
     margin: 60px 20px;
     display: flex;
 }
-
 .post {
     display: flex;
     width: 80%;
@@ -124,17 +108,16 @@ nav button{
     justify-content: space-between;
     align-items: center;
 }
-.post-image img{
+.post-image img {
     width: 100%;
 }
-
-.post-image{
+.post-image {
     width: 40%;
 }
 .post-text {
     width: 45%;
 }
-.post-text h3{
+.post-text h3 {
     font-family: DM Sans;
     font-size: 36px;
     width: 95%;
@@ -144,7 +127,7 @@ nav button{
     text-align: left;
     color: rgba(3, 77, 130, 1);
 }
-.post-text p{
+.post-text p {
     font-family: DM Sans;
     font-size: 16px;
     margin: 36px auto;
@@ -153,14 +136,14 @@ nav button{
     letter-spacing: 0.30000001192092896px;
     color: rgba(144, 163, 180, 1);
 }
-.post-text a{
+.post-text a {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.83px;
     color: rgba(4, 170, 221, 1);
 }
-.iphone{
+.iphone {
     position: absolute;
 }
 .arrowphone {
@@ -173,48 +156,67 @@ nav button{
     margin: 5rem auto;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
 }
-.post2-text{
-    width: 35%;
+.post2-text {
+    width: 38%;
+    padding-bottom: 5rem;
 }
-.post2-image{
-    width: 40%;
-}
-.post2-text h3{
+.post2-text h3 {
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0.30000001192092896px;
-    text-align: left;
     color: #034D82;
+}
+.post2-text>p {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 2rem;
+    color: rgba(144, 163, 180, 1);
+}
+.post2-text ul {
+    flex-direction: column;
+}
+.post2-text ul li {
+    padding-top: 17px;
+    color: rgba(144, 163, 180, 1);
+    list-style-image: url('./images/listimage.png.');
+}
+.post2-text h5 {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.83px;
+    padding-top: 1rem;
+    color: rgba(4, 170, 221, 1);
 }
 .hashtag {
     background: rgba(239, 251, 255, 1);
     padding: 4rem 0rem;
     margin-top: 5rem;
 }
-
 .hashtag-toptext {
     text-align: center;
+    padding-bottom: 76px;
 }
-
-.hashtag-toptext h2{
+.hashtag-toptext h2 {
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
+    padding-bottom: 24px;
     color: rgba(3, 77, 130, 1);
 }
-
-.hashtag-toptext p{
+.hashtag-toptext p {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: rgba(142, 169, 193, 1);
 }
-
 .hashtag-cards {
     display: flex;
     gap: 2rem;
@@ -222,27 +224,24 @@ nav button{
     width: 80%;
     margin: auto;
 }
-
-.card{
+.card {
     background: #fff;
     padding: 1rem 1rem 3rem 1rem;
     border-radius: 10px;
     height: 300px;
 }
-
-.card h5{
+.card h5 {
     font-family: DM Sans;
-font-size: 20px;
-font-weight: 700;
-padding: 1rem 0;
-line-height: 32px;
-color: rgba(3, 77, 130, 1);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem 0;
+    line-height: 32px;
+    color: rgba(3, 77, 130, 1);
 }
-
-.card p{
+.card p {
     font-family: DM Sans;
-font-size: 15px;
-font-weight: 400;
-line-height: 24px;
-color: rgba(142, 169, 193, 1);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(142, 169, 193, 1);
 }
