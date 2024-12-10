@@ -287,6 +287,142 @@ nav button {
   color: rgba(142, 169, 193, 1);
 }
 
-.Footer-List {
+.growth {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 0;
+}
+
+.growthleft h3 {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #034d82;
+}
+.growthleft p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #90a3b4;
+}
+.growthtext p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32px;
+  color: #90a3b4;
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+  width: 70%;
+}
+.hart {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 3rem;
+}
+.hart h5 {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #90a3b4;
+}
+.hartname {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #90a3b4;
+}
+.brand {
+  background-image: url(/images/Mask\ Group.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 15rem;
+  border-radius: 10px;
+}
+.brand h3 {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  width: 50%;
+  margin-top: 4rem;
+  padding: 2rem;
+  color: #ffffff;
+}
+.brand p {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 2rem;
+  margin-top: -2.5rem;
+  color: #ffffff;
+}
+.brandbutton {
+  margin-top: 10rem;
+  margin: auto;
+  background: #fff;
+  padding: 1rem;
+  color: #04aadd;
+  border-radius: 5px;
+  width: 15%;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.83px;
+}
+.brandbutton:hover {
+  background-color: #005490;
+  color: white;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.83px;
+}
+.brandimages {
+  margin-top: -3.5rem;
+  padding: 2rem;
+}
+
+footer {
+  background: #1f2633;
+  padding: 2rem 0;
+  color: #fff;
+}
+
+.footwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footIcons {
+  display: flex;
+  gap: 8px;
+}
+
+.footleft {
+  display: flex;
+  width: 30%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.Footer_List {
   display: block;
 }
