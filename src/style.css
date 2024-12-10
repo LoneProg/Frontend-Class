@@ -286,3 +286,7 @@ nav button {
   padding-right: 1rem;
   color: rgba(142, 169, 193, 1);
 }
+
+.footer-list {
+  display: block;
+}
