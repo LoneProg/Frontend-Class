@@ -433,6 +433,7 @@ li {
 .footright h4 {
   font-family: DM Sans;
   font-size: 18px;
+  display: flex;
   font-weight: 700;
   line-height: 23.44px;
   color: #ffffff;
