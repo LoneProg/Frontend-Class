@@ -396,33 +396,64 @@ nav button {
 }
 
 footer {
-  background: #1f2633;
-  padding: 2rem 0;
+  background: #081315;
+  width: 100%;
   color: #fff;
-}
-
-.footwrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  width: 90%;
-}
-
-.footIcons {
-  display: flex;
-  gap: 8px;
-}
-
-.footleft {
-  display: flex;
-  width: 30%;
-}
-
-li {
-  list-style-type: none;
+  padding: 3rem 0;
+  margin-top: 5rem;
 }
 
 .Footer_List {
   display: block;
+}
+
+.footwrap {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+.footright {
+  display: flex;
+  gap: 4rem;
+  width: 60%;
+}
+.footleft {
+  width: 40%;
+}
+
+li {
+  list-style-type: none;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.83px;
+  color: #d3d6d8;
+  margin-bottom: 1rem;
+}
+.footright h4 {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.44px;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+.footleft p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 50%;
+  padding: 1rem 0;
+}
+.copyright {
+  text-align: center;
+  margin-top: 4rem;
+}
+.copyright p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+  /* background: #FFFFFF; */
 }
