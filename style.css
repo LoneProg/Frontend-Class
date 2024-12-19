@@ -547,3 +547,12 @@ li {
     background-color: #fff;
   }
 }
+@media (max-width: 748px){
+  nav{
+    gap: 2rem;
+    width: 100%;
+  }
+  .logo {
+    width: 30%;
+  }
+}
